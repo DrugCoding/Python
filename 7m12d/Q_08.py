@@ -4,5 +4,4 @@ numbers.sort()
 
 num = numbers[-2:]
 
-print(2::)
 print(num[0])
