@@ -1,4 +1,4 @@
-x = int(input())
-
+import sys
+input = int(sys.stdin.readline().strip())
 for i in range(1, 10):
-    print("%d * %d = %d" % (x, i, x*i))
+    print(f'{input} * {i} = {input*i}')
